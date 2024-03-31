@@ -24,3 +24,5 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     path("anaonline_service/", include("service.urls")),
 ]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
